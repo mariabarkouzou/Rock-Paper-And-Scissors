@@ -1,46 +1,35 @@
-
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="./styles.css" />
-    <title>Rock paper and scissors</title>
-  </head>
-  <body>
-    <section class="game">
-      <div class="score">
-        <div class="player-score">
-          <h2>You</h2>
-          <p>0</p>
-        </div>
-        <div class="computer-score">
-          <h2>Computer</h2>
-          <p>0</p>
-        </div>
-      </div>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="Description" content="Rock Paper & Scissors Game">
+    <link rel="stylesheet" href="styles.css">
+    <title>Rock Paper & Scissors</title>
+</head>
 
-      <div class="intro">
-        <h1>Rock Paper and Scissors</h1>
-        <button>Let's Play</button>
-      </div>
+<body>
 
-      <div class="match fadeOut">
-        <h2 class="winner">Choose an option</h2>
-        <div class="hands">
-          <img class="player-hand" src="./images/rock.png" alt="" />
-          <img class="computer-hand" src="./images/rock.png" alt="" />
-        </div>
-        <div class="options">
-          <button class="rock">rock</button>
-          <button class="paper">paper</button>
-          <button class="scissors">scissors</button>
-        </div>
-      </div>
-    </section>
+    <h1>Rock Paper & Scissors</h1>
+    <h2>First to 5 Wins!</h2>
 
-    <script src="rps.js"></script>
-  </body>
+    <div class="buttons">
+        <button class="btn" id="rock"><img src="images/rock.png" alt="rock image"/></button>
+        <button class="btn" id="paper"><img src="images/paper.png" alt="paper image"/></button>
+        <button class="btn" id="scissors"><img src="images/scissors.png" alt="scissors image"/></button>
+    </div>
+
+    <div class="text-line">
+    <p class="text" id="player-score">Player Score:</p>
+    <p class="text" id="comp-score">Computer Score:</p>
+    </div>
+
+    <div>
+        <p class="text" id="output">May the Best Win!</p>
+    </div>
+
+    <script src ="rps.js" async></script> 
+
+</body>
 </html>
-
