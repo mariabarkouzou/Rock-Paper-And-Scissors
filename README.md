@@ -1,1 +1,1 @@
-https://confident-euclid-698d7b.netlify.app/
+You can check the [Demo](https://marias-rock-paper-scissors.netlify.app/)
